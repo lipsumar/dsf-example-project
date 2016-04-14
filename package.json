@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/lipsumar/dsf-example-project/issues"
   },
-  "homepage": "https://github.com/lipsumar/dsf-example-project#readme"
+  "homepage": "https://github.com/lipsumar/dsf-example-project#readme",
+  "dependencies": {
+    "design-system-framework": "file:design-system-framework"
+  }
 }
