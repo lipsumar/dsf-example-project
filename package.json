@@ -1,0 +1,18 @@
+{
+  "name": "dsf-example-project",
+  "description": "Example project for Design System Framework",
+  "version": "0.0.0",
+  "scripts": {
+    "dsf": "node node_modules/design-system-framework/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lipsumar/dsf-example-project.git"
+  },
+  "author": "Emmanuel Pire <piremmanuel@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lipsumar/dsf-example-project/issues"
+  },
+  "homepage": "https://github.com/lipsumar/dsf-example-project#readme"
+}
