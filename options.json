@@ -1,0 +1,18 @@
+{
+	"components-path": "Components/",
+
+	"external-components":{
+
+		"normalize.css": {
+			"component-path": "./node_modules/normalize.css/"
+		}
+
+	},
+
+	"base":{
+		"css": [
+			"normalize.css"
+		]
+	}
+
+}
