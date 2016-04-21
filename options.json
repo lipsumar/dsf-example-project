@@ -1,6 +1,14 @@
 {
 	"components-path": "Components/",
 
+	"preprocessor":{
+		"css": "less"
+	},
+
+	"glob":{
+		"css": "*.{less,css}"
+	},
+
 	"external-components":{
 
 		"normalize.css": {
@@ -11,7 +19,8 @@
 
 	"base":{
 		"css": [
-			"normalize.css"
+			"normalize.css",
+			"Base"
 		]
 	}
 
