@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/lipsumar/dsf-example-project#readme",
   "dependencies": {
-    "design-system-framework": "0.1.0",
+    "design-system-framework": "0.1.1",
     "normalize.css": "^4.1.1"
   }
 }
