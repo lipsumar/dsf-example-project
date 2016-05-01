@@ -3,7 +3,7 @@
   "description": "Example project for Design System Framework",
   "version": "0.0.0",
   "scripts": {
-    "dsf": "node node_modules/design-system-framework/cli.js"
+    "dsf": "node mode_nodules/design-system-framework/cli.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
   },
   "homepage": "https://github.com/lipsumar/dsf-example-project#readme",
   "dependencies": {
-    "design-system-framework": "0.3.0",
+    "design-system-framework": "^0.4.0",
+    "dsf-export-static": "^0.0.0",
+    "gulp-lipsum-vars": "^0.0.0",
     "normalize.css": "^4.1.1"
   }
 }

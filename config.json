@@ -1,12 +1,21 @@
 {
 	"components-path": "Components/",
 
-	"preprocessor":{
-		"css": "less"
+	"process":{
+		"css": [
+			"gulp-less",
+			"gulp-clean-css"
+		],
+
+		"html":[
+			"gulp-lipsum-vars"
+		]
+
 	},
 
 	"glob":{
-		"css": "*.{less,css}"
+		"css": "*.{css,less}",
+		"doc": "doc.md"
 	},
 
 	"external-components":{
@@ -21,7 +30,12 @@
 		"css": [
 			"normalize.css",
 			"Base"
+
 		]
-	}
+	},
+
+	"plugins":[
+		"./node_modules/dsf-export-static"
+	]
 
 }
